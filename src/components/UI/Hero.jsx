@@ -103,6 +103,7 @@ const Hero = () => {
             </div>
           </div>
           {/* ==========hero left end============= */}
+
           {/* ==========hero img start============= */}
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure className=' flex items-center justify-center'>
@@ -110,9 +111,10 @@ const Hero = () => {
             </figure>
           </div>
           {/* ==========hero img end============= */}
+          
           {/* ==========hero content right============= */}
           <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
-            {/* <div className="mb-10">
+            {/* <div className="mb-10">   this was extra countup for right menue.
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={0} end={6} duration={2} suffix='+' />
               </h2>
