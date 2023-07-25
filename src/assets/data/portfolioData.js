@@ -149,3 +149,5 @@ const portfolios = [
     siteUrl: "#",
   },
 ];
+
+export default portfolios;
