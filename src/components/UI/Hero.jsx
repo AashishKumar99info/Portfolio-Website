@@ -70,7 +70,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#github"
                   className='text-smallTextColor text-[18px] font-[600]'
                 >
                   <i class="ri-github-fill"></i>
@@ -78,7 +78,15 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#linkedin"
+                  className='text-smallTextColor text-[18px] font-[600]'
+                >
+                  <i class="ri-linkedin-line"></i>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#facebook"
                   className='text-smallTextColor text-[18px] font-[600]'
                 >
                   <i class="ri-facebook-line"></i>
@@ -86,7 +94,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#instagram"
                   className='text-smallTextColor text-[18px] font-[600]'
                 >
                   <i class="ri-instagram-line"></i>
