@@ -28,12 +28,12 @@ const Modal = ({ activeID, setShowModal }) => {
                         </h4>
 
                         {portfolio.technologies.map((item, index) => (
-                        <span
-                            key={index}
-                            className="bg-gray-200 py-1 px-2 rounded-[5px] text-[14px] leading-0"
-                        >
-                        {item}
-                        </span>
+                            <span
+                                key={index}
+                                className="bg-gray-200 py-1 px-2 rounded-[5px] text-[14px] leading-0"
+                            >
+                                {item}
+                            </span>
                         ))}
                     </div>
                     <a href={portfolio.siteUrl}>
@@ -42,8 +42,15 @@ const Modal = ({ activeID, setShowModal }) => {
                         </button>
                     </a>
                 </div>
+
+                <button
+                    onClick={() => setShowModal(false)}
+                    className="w-[1.8rem] h-[1.8rem] bg-[white] absolute top-[1.7rem] right-[1.7rem] text-[25px] flex items-center justify-center rounded-[3px] leading-0 cursor-pointer"
+                >
+                    &times;
+                </button>
             </div>
-        </div>
+       </div >
     );
 };
 
