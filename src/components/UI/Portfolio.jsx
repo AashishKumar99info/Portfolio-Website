@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import data from '../../assets/data/portfolioData'
+import Modal from './Modal';
 
 const Portfolio = () => {
 
     const [nextItems, setNextItems] = useState(6);
     const [portfolios, SetPortfolios] = useState(data);
     const [seletctTab, setSelectTab] = useState("all");
+    const [showModal,setShowModal] = useState(false);
+    const [activeID,setActiveID] = useState(null);
 
     const loadMoreHandler = () => {
         setNextItems(pre => pre + 3)
+    }
+
+    const showModalHandler = (id) => {
+        setShowModal(true);
+        setActiveID(id)
     }
 
     useEffect(() => {
@@ -74,7 +82,7 @@ const Portfolio = () => {
                                 </figure>
                                 <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block">
                                     <div className='w-full h-full flex items-center justify-center'>
-                                        <button className='text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200' >See Details</button>
+                                        <button onClick={() => showModalHandler(portfolio.id)} className='text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200' >See Details</button>
                                     </div>
                                 </div>
                             </div>
@@ -93,6 +101,10 @@ const Portfolio = () => {
 
                 </div>
             </div>
+
+            {
+                showModal && <Modal setShowModal = {setShowModal} activeID = {activeID} />
+            }
         </secton>
     )
 }
