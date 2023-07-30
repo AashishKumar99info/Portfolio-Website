@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../assets/images/hero.svg';
+import heroImg from '../../assets/images/hero2.png';
 import CountUp from 'react-countup';
 
 const Hero = () => {
@@ -52,8 +52,7 @@ const Hero = () => {
               <span>
                 <i class="ri-apps-line"></i>
               </span>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eveniet saepe voluptatibus explicabo temporibus non
-              voluptatem ut odit deserunt ipsa?
+              Highly skilled and confident software developer, passionately crafting innovative solutions with precision and efficiency, transforming complex challenges into elegant, scalable code.
             </p>
 
             <div className="flex items-center gap-9 mt-14">
@@ -106,12 +105,15 @@ const Hero = () => {
 
           {/* ==========hero img start============= */}
           <div className="basis-1/3 mt-10 sm:mt-0">
-            <figure className=' flex items-center justify-center'>
+            <figure
+              data-aos='fade-down'
+              data-aos-duration='1500'
+              className=' flex items-center justify-center'>
               <img src={heroImg} alt="" />
             </figure>
           </div>
           {/* ==========hero img end============= */}
-          
+
           {/* ==========hero content right============= */}
           <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
             {/* <div className="mb-10">   this was extra countup for right menue.
@@ -122,15 +124,21 @@ const Hero = () => {
                 Years of experience
               </h4>
             </div> */}
-            <div className="mb-10">
+            <div 
+            data-aos='fade-right'
+            data-aos-duration='1500'
+            className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
-                <CountUp start={0} end={2} duration={2} suffix='+' />
+                <CountUp start={10} end={0} duration={2} suffix='+' />
               </h2>
               <h4 className='text-headingColor font-[600] text-[18px]' >
                 Years of Experience
               </h4>
             </div>
-            <div className="mb-10">
+            <div 
+             data-aos='fade-left'
+             data-aos-duration='1500'
+            className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={0} end={100} duration={2} suffix='%' />
               </h2>
@@ -138,19 +146,25 @@ const Hero = () => {
                 Success Rate
               </h4>
             </div>
-            <div className="mb-10">
+            <div 
+            data-aos='fade-right'
+            data-aos-duration='1500'
+            className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={0} end={102} duration={2} suffix='+' />
               </h2>
               <h4 className='text-headingColor font-[600] text-[18px]' >
-                Happy Clients
+                Happy Connections
               </h4>
             </div>
             <div className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
-                <CountUp start={0} end={112} duration={2} suffix='+' />
+                <CountUp start={0} end={18} duration={2} suffix='+' />
               </h2>
-              <h4 className='text-headingColor font-[600] text-[18px]' >
+              <h4 
+              data-aos='fade-left'
+              data-aos-duration='1500'
+              className='text-headingColor font-[600] text-[18px]' >
                 Projects Completed
               </h4>
             </div>
