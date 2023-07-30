@@ -124,10 +124,10 @@ const Hero = () => {
                 Years of experience
               </h4>
             </div> */}
-            <div 
-            data-aos='fade-right'
-            data-aos-duration='1500'
-            className="mb-10">
+            <div
+              data-aos='fade-right'
+              data-aos-duration='1500'
+              className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={10} end={0} duration={2} suffix='+' />
               </h2>
@@ -135,10 +135,10 @@ const Hero = () => {
                 Years of Experience
               </h4>
             </div>
-            <div 
-             data-aos='fade-left'
-             data-aos-duration='1500'
-            className="mb-10">
+            <div
+              data-aos='fade-left'
+              data-aos-duration='1500'
+              className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={0} end={100} duration={2} suffix='%' />
               </h2>
@@ -146,10 +146,10 @@ const Hero = () => {
                 Success Rate
               </h4>
             </div>
-            <div 
-            data-aos='fade-right'
-            data-aos-duration='1500'
-            className="mb-10">
+            <div
+              data-aos='fade-right'
+              data-aos-duration='1500'
+              className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={0} end={102} duration={2} suffix='+' />
               </h2>
@@ -161,10 +161,10 @@ const Hero = () => {
               <h2 className='text-headingColor font-[700] text-[32px]' >
                 <CountUp start={0} end={18} duration={2} suffix='+' />
               </h2>
-              <h4 
-              data-aos='fade-left'
-              data-aos-duration='1500'
-              className='text-headingColor font-[600] text-[18px]' >
+              <h4
+                data-aos='fade-left'
+                data-aos-duration='1500'
+                className='text-headingColor font-[600] text-[18px]' >
                 Projects Completed
               </h4>
             </div>
