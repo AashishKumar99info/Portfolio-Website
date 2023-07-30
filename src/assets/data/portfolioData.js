@@ -13,7 +13,7 @@ const portfolios = [
     category: "Web Design",
     title: "Finance Technology Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Discover the future of finance with our innovative tools, from AI-powered trading algorithms to personalized financial planning solutions. Experience seamless transactions and secure your financial future on our platform.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -23,7 +23,7 @@ const portfolios = [
     category: "Ux",
     title: "Video Conference Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Effortlessly host webinars and virtual events with our user-friendly platform, offering interactive features like screen sharing, chat, and real-time polls to engage your audience.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -33,7 +33,7 @@ const portfolios = [
     category: "Ux",
     title: "Multimedia Sharing Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Share your creativity with the world through our multimedia platform. Upload and showcase photos, videos, and music, and connect with a global community of like-minded enthusiasts.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -41,9 +41,9 @@ const portfolios = [
     id: "04",
     imgUrl: portfolioImg05,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Protest Landing Page",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Create visually captivating and informative protest landing pages in minutes, equipped with event details, social sharing buttons, and a customizable call-to-action section to mobilize your cause effectively.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -51,9 +51,9 @@ const portfolios = [
     id: "05",
     imgUrl: portfolioImg03,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Web MKR Landing Page",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Unlock your brand's full potential with our web MKR landing page. Craft stunning, mobile-responsive pages without coding, and elevate your online presence with ease.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -64,7 +64,7 @@ const portfolios = [
     category: "Ux",
     title: "Online Therapy Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Experience confidential and convenient therapy sessions with our user-friendly interface. Access a diverse range of therapists, schedule appointments with ease, and take positive steps towards healing and personal growth.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -74,7 +74,7 @@ const portfolios = [
     category: "Web Design",
     title: "Appointment Booking Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Streamline your scheduling with our intuitive appointment booking website. Empower your clients to book appointments online, receive automatic reminders, and manage their calendars effortlessly.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -84,7 +84,7 @@ const portfolios = [
     category: "Web Design",
     title: "Finance Technology Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Discover the future of finance with our innovative tools, from AI-powered trading algorithms to personalized financial planning solutions. Experience seamless transactions and secure your financial future on our platform.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -92,9 +92,9 @@ const portfolios = [
     id: "09",
     imgUrl: portfolioImg02,
     category: "Ux",
-    title: "Video Conference Website",
+    title: "Multimedia Sharing Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Share your creativity with the world through our multimedia platform. Upload and showcase photos, videos, and music, and connect with a global community of like-minded enthusiasts.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -104,7 +104,7 @@ const portfolios = [
     category: "Ux",
     title: "File Sharing Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Collaborate seamlessly with colleagues and clients through our file sharing platform, offering folder organization, version tracking, and user permissions for efficient teamwork.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -112,9 +112,9 @@ const portfolios = [
     id: "11",
     imgUrl: portfolioImg04,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Video Conference Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "Effortlessly host webinars and virtual events with our user-friendly platform, offering interactive features like screen sharing, chat, and real-time polls to engage your audience.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -122,9 +122,9 @@ const portfolios = [
     id: "12",
     imgUrl: portfolioImg05,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Protest Landing Page",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Create visually captivating and informative protest landing pages in minutes, equipped with event details, social sharing buttons, and a customizable call-to-action section to mobilize your cause effectively.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -134,7 +134,7 @@ const portfolios = [
     category: "Web Design",
     title: "Online Therapy Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Experience confidential and convenient therapy sessions with our user-friendly interface. Access a diverse range of therapists, schedule appointments with ease, and take positive steps towards healing and personal growth.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -144,7 +144,7 @@ const portfolios = [
     category: "ux",
     title: "Appointment Booking Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "Streamline your scheduling with our intuitive appointment booking website. Empower your clients to book appointments online, receive automatic reminders, and manage their calendars effortlessly.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
