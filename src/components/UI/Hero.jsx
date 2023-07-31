@@ -13,7 +13,7 @@ const Hero = () => {
             <h5
               data-aos='fade-right'
               data-aos-duration='1500'
-              className=' text-headingColor font-[600] text-[16px]'
+              className=' text-headingColor font-[600] text-[26px]'
             >
               Hello Welcome
             </h5>
