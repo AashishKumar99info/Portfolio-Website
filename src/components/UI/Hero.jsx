@@ -129,7 +129,7 @@ const Hero = () => {
               data-aos-duration='1500'
               className="mb-10">
               <h2 className='text-headingColor font-[700] text-[32px]' >
-                <CountUp start={10} end={0} duration={2} suffix='+' />
+                <CountUp start={10} end={1} duration={2} suffix='+' />
               </h2>
               <h4 className='text-headingColor font-[600] text-[18px]' >
                 Years of Experience
