@@ -3,6 +3,11 @@ import portfolios from '../../assets/data/portfolioData'
 
 const Modal = ({ activeID, setShowModal }) => {
 
+    // if (activeID) {
+    //     document.body.scrollTop=0;
+    //     document.documentElement.scrollTop=0;
+    // }
+
     const portfolio = portfolios.find((portfolio) => portfolio.id === activeID)
     return (
         <div className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40">
